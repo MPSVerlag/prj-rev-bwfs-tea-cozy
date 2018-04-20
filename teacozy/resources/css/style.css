@@ -1,0 +1,149 @@
+html{
+    margin-top:0;
+    padding-top:0;
+}
+body{
+    margin-top:0;
+    padding-top:0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a, span, p, h2, h4 {
+  color: seashell;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  z-index: 5;
+  background-color: black;
+}
+
+header img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+header nav {
+  text-decoration: underline;
+  padding-right: 20px;
+}
+
+header span {
+  padding: 15px;
+}
+
+.Content {
+  position: relative;
+  top: 69px;
+}
+
+.Mission {
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+}
+
+.Text-Mission {
+  position: relative;
+  top: 325px;
+  height: 90px;
+  width: 1200px;
+  line-height: 20%;
+  background-color: black;
+  opacity: 1;
+}
+
+.Text-Mission h2 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.Text-Mission h4 {
+  font-weight: 650;
+  font-size: 22px;
+}
+
+.TeaOfMonth {
+  position: relative;
+  top: 69px;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.image-content img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+
+.first_tagline {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 65px;
+}
+
+.second_row {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.second_row_left p, .second_row_right p {
+  position: relative;
+  top: -30px;
+}
+
+.Locations {
+  background-image: url("../images/img-locations-background.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 1200px;
+}
+
+.loctitle {
+  position: relative;
+  top: 65px;
+  width: 100%;
+}
+
+.Downtown, .East, .Oakdale {
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  background-color: black;
+  margin: 20px;
+  line-height: 45px;
+}
+
+footer {
+  position: relative;
+  top: 69px;
+  height: 200px;
+}
+
+.copyright {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 20px;
+}
